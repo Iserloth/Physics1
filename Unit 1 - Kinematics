@@ -1,0 +1,361 @@
+<section
+  style="
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #E6E9FF;
+    line-height: 1.5;
+    background-color: #120A2A;
+    background-image: url('https://k12.instructure.com/courses/2378986/files/44806345/download');
+    background-position: center top;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    border: 2px solid #3C2A7A;
+    padding: 20px 22px;
+    margin-bottom: 20px;
+  "
+>
+  <!-- HERO / BANNER -->
+  <div
+    style="
+      background: radial-gradient(circle at top, rgba(255,47,175,0.75) 0, rgba(27,17,64,0.75) 55%, rgba(18,10,42,0.75) 100%);
+      color: #F5F7FF;
+      border-radius: 16px;
+      padding: 18px 20px;
+      border: 1px solid #FF2FAF;
+      margin: 0 0 16px 0;
+      text-align: center;
+    "
+  >
+    <div style="font-size: 0.9rem; color: #F5F7FF; margin-bottom: 4px;">Physics 1</div>
+
+    <h1 style="margin: 0; font-size: 1.9rem; color: #F5F7FF;">Unit 1: Kinematics</h1>
+
+    <p style="margin: 6px 0 0 0; font-size: 0.98rem; color: #E6E9FF;">
+      Scalars &amp; Vectors &bull; Motion Graphs &bull; Kinematics Relationships &bull; 2D Motion
+    </p>
+
+    <div style="height: 2px; background: #FF2FAF; margin: 12px auto 0 auto; width: 72%; border-radius: 999px;"></div>
+
+    <div style="display: inline-flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; justify-content: center;">
+      <a
+        style="
+          text-decoration: none;
+          background: linear-gradient(135deg, #FF2FAF, #FF4FC3);
+          border: 2px solid #FF2FAF;
+          color: #FFFFFF;
+          padding: 8px 14px;
+          border-radius: 999px;
+          font-size: 0.95rem;
+        "
+        title="Course Home"
+        href="/courses/2378986"
+        data-course-type="navigation"
+      >
+        ⬅ Course Home
+      </a>
+
+      <a
+        style="
+          text-decoration: none;
+          background: linear-gradient(135deg, #38B6FF, #9C7CFF);
+          border: 2px solid #38B6FF;
+          color: #120A2A;
+          padding: 8px 14px;
+          border-radius: 999px;
+          font-size: 0.95rem;
+        "
+        title="Modules"
+        href="/courses/2378986/modules"
+        data-course-type="navigation"
+      >
+        📂 Modules
+      </a>
+
+      <a
+        style="
+          text-decoration: none;
+          background: linear-gradient(135deg, #2C1B66, #24165A);
+          border: 2px solid #3C2A7A;
+          color: #E6E9FF;
+          padding: 8px 14px;
+          border-radius: 999px;
+          font-size: 0.95rem;
+        "
+        title="Grades"
+        href="/courses/2378986/grades"
+        data-course-type="navigation"
+      >
+        ✅ Grades
+      </a>
+    </div>
+  </div>
+
+  <!-- 3-CARD ROW -->
+  <div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; margin: 0 0 16px 0;">
+    <!-- LEFT: LESSON LINKS -->
+    <section style="flex: 1 1 260px; min-width: 260px;">
+      <div
+        style="
+          background: rgba(27,17,64,0.40);
+          border-radius: 16px;
+          padding: 14px 16px;
+          border: 1px solid #6A5CFF;
+        "
+      >
+        <h2 style="margin: 0 0 10px 0; text-align: center; font-size: 1.2rem; color: #FFFFFF;">
+          Lessons in this Unit
+        </h2>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <a
+            style="
+              text-decoration: none;
+              background: rgba(36,22,90,0.40);
+              border: 1px solid #FF4FC3;
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #F2F4FF;
+            "
+            title="1.1 Scalars and Vectors in 1 Dimension"
+            href="https://k12.instructure.com/courses/2378986/pages/1-dot-1-scalars-and-vectors-in-1-dimension"
+          >
+            <strong>1.1 — Scalars and Vectors in 1 Dimension</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+
+          <a
+            style="
+              text-decoration: none;
+              background: rgba(36,22,90,0.40);
+              border: 1px solid #FF4FC3;
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #F2F4FF;
+            "
+            title="1.2 Displacement, Velocity, and Acceleration"
+            href="https://k12.instructure.com/courses/2378986/pages/1-dot-2-displacement-velocity-and-acceleration"
+          >
+            <strong>1.2 — Displacement, Velocity, and Acceleration</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+
+          <a
+            style="
+              text-decoration: none;
+              background: rgba(36,22,90,0.40);
+              border: 1px solid #FF4FC3;
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #F2F4FF;
+            "
+            title="1.3 Representing Motion"
+            href="https://k12.instructure.com/courses/2378986/pages/1-dot-3-representing-motion"
+          >
+            <strong>1.3 — Representing Motion</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+
+          <a
+            style="
+              text-decoration: none;
+              background: rgba(36,22,90,0.40);
+              border: 1px solid #FF4FC3;
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #F2F4FF;
+            "
+            title="1.4 Motion in 2 Dimensions"
+            href="https://k12.instructure.com/courses/2378986/pages/1-dot-4-motion-in-2-dimensions"
+          >
+            <strong>1.4 — Motion in 2 Dimensions</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MIDDLE: SNAPSHOT -->
+    <section style="flex: 1 1 260px; min-width: 260px;">
+      <div
+        style="
+          background: rgba(27,17,64,0.40);
+          border-radius: 16px;
+          padding: 14px 16px;
+          border: 1px solid #6A5CFF;
+          height: 100%;
+        "
+      >
+        <h2 style="margin: 0 0 10px 0; text-align: center; font-size: 1.2rem; color: #FFFFFF;">
+          Unit 1 Snapshot
+        </h2>
+
+        <p style="margin: 4px 0 8px 0; font-size: 0.96rem; color: #E6E9FF;">
+          In Unit 1, you build the language of motion. You’ll describe position and displacement, connect motion to
+          velocity and acceleration, represent motion with multiple graphs, and extend kinematics ideas into
+          two-dimensional motion.
+        </p>
+
+        <ul style="margin: 6px 0 0 18px; font-size: 0.95rem; color: #D7DBFF;">
+          <li>Distinguish scalars and vectors and use sign conventions consistently.</li>
+          <li>Interpret and calculate displacement, velocity, and acceleration.</li>
+          <li>Translate motion between words, graphs, and equations.</li>
+          <li>Analyze 2D motion situations using components.</li>
+        </ul>
+
+        <p style="margin: 10px 0 0 0; font-size: 0.9rem; color: #F2F4FF;">
+          Complete Lessons 1.1–1.4 in order, then use the review, rework option (if needed), and ACT practice to prepare
+          for the summative challenge.
+        </p>
+      </div>
+    </section>
+
+    <!-- RIGHT: REVIEW & PRACTICE -->
+    <section style="flex: 1 1 260px; min-width: 260px;">
+      <div
+        style="
+          background: rgba(27,17,64,0.40);
+          border-radius: 16px;
+          padding: 14px 16px;
+          border: 1px solid #6A5CFF;
+        "
+      >
+        <h2 style="margin: 0 0 10px 0; text-align: center; font-size: 1.2rem; color: #FFFFFF;">
+          Review &amp; Practice
+        </h2>
+
+        <div style="margin-bottom: 10px;">
+          <h3 style="margin: 0 0 6px 0; font-size: 1.05rem; color: #F2F4FF;">📚 Unit Review</h3>
+
+          <strong>
+            <a
+              style="
+                text-decoration: none;
+                background: rgba(36,22,90,0.40);
+                border: 1px solid #38B6FF;
+                border-radius: 10px;
+                padding: 8px 10px;
+                display: block;
+                color: #F2F4FF;
+              "
+              href="https://k12.instructure.com/courses/2378986/pages/unit-1-review"
+            >
+              Unit 1 Review — Concepts &amp; Key Relationships
+            </a>
+          </strong>
+        </div>
+
+        <div style="margin-bottom: 10px;">
+          <h3 style="margin: 0 0 6px 0; font-size: 1.05rem; color: #F2F4FF;">📝 Rework / Regrade</h3>
+
+          <strong>
+            <a
+              style="
+                text-decoration: none;
+                background: rgba(36,22,90,0.40);
+                border: 1px solid #38B6FF;
+                border-radius: 10px;
+                padding: 8px 10px;
+                display: block;
+                color: #F2F4FF;
+              "
+              href="https://k12.instructure.com/courses/2378986/assignments/11068073"
+            >
+              Unit 1 Rework — Improve Your Score
+            </a>
+          </strong>
+        </div>
+
+        <div>
+          <h3 style="margin: 0 0 6px 0; font-size: 1.05rem; color: #F2F4FF;">✅ ACT Practice</h3>
+
+          <a
+            style="
+              text-decoration: none;
+              background: rgba(36,22,90,0.40);
+              border: 1px solid #FF2FAF;
+              border-radius: 10px;
+              padding: 8px 10px;
+              display: block;
+              margin-bottom: 6px;
+              color: #F2F4FF;
+            "
+            href="https://k12.instructure.com/courses/2378986/quizzes/3928057"
+          >
+            <strong>ACT #1</strong> — Motion Quantities &amp; Units
+          </a>
+
+          <a
+            style="
+              text-decoration: none;
+              background: rgba(36,22,90,0.40);
+              border: 1px solid #FF2FAF;
+              border-radius: 10px;
+              padding: 8px 10px;
+              display: block;
+              margin-bottom: 6px;
+              color: #F2F4FF;
+            "
+            href="https://k12.instructure.com/courses/2378986/quizzes/3928058"
+          >
+            <strong>ACT #2</strong> — Graphs of Motion
+          </a>
+
+          <a
+            style="
+              text-decoration: none;
+              background: rgba(36,22,90,0.40);
+              border: 1px solid #FF2FAF;
+              border-radius: 10px;
+              padding: 8px 10px;
+              display: block;
+              color: #F2F4FF;
+            "
+            href="https://k12.instructure.com/courses/2378986/quizzes/3928060"
+          >
+            <strong>ACT #3</strong> — 2D Motion Reasoning
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- SUMMATIVE / ASSESSMENT -->
+  <section
+    style="
+      background: radial-gradient(circle at top, rgba(255,47,175,0.75) 0, rgba(27,17,64,0.75) 55%, rgba(18,10,42,0.75) 100%);
+      border: 2px solid #FF2FAF;
+      border-radius: 16px;
+      padding: 16px;
+      margin: 0 0 8px 0;
+      color: #F5F7FF;
+    "
+  >
+    <h2 style="margin: 0 0 8px 0; font-size: 1.2rem;">Summative Assessment</h2>
+
+    <p style="margin-top: 0; font-size: 0.96rem; color: #E6E9FF;">
+      When you have completed the lessons, unit review, rework (if needed), and ACT practice, you are ready for the Unit 1
+      summative challenge.
+    </p>
+
+    <p style="margin: 8px 0 0 0;">
+      <a
+        style="
+          display: inline-block;
+          text-decoration: none;
+          background: #2C1B66;
+          color: #E6E9FF;
+          border: 2px solid #3C2A7A;
+          padding: 10px 14px;
+          border-radius: 10px;
+        "
+        title="Unit 1 Summative Challenge — Projectile Launchers"
+        href="https://k12.instructure.com/courses/2378986/assignments/11068072"
+      >
+        Open Unit 1 Summative Challenge — Projectile Launchers
+      </a>
+    </p>
+  </section>
+</section>
