@@ -1,1 +1,453 @@
+<section
+  style="
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #DDE6FF;
+    line-height: 1.5;
+    background-color: #0B1020;
+    background-image: url('https://k12.instructure.com/courses/2378986/files/44806556/download');
+    background-position: center top;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+    border: 2px solid #2A3566;
+    padding: 20px 22px;
+    margin-bottom: 20px;
+  "
+>
+  <!-- Optional hover-glow CSS (Canvas usually allows this; if stripped, layout still works) -->
+  <style>
+    .p1-home-btn {
+      transition: box-shadow 160ms ease, transform 160ms ease, border-color 160ms ease;
+      will-change: box-shadow, transform;
+    }
+    .p1-home-btn:hover {
+      transform: translateY(-1px);
+    }
+    .glow-u1:hover { box-shadow: 0 0 0 2px rgba(255,47,175,0.35), 0 0 18px rgba(255,47,175,0.35); }
+    .glow-u2:hover { box-shadow: 0 0 0 2px rgba(255,197,51,0.35), 0 0 18px rgba(255,197,51,0.35); }
+    .glow-u3:hover { box-shadow: 0 0 0 2px rgba(196,77,255,0.35), 0 0 18px rgba(196,77,255,0.35); }
+    .glow-u4:hover { box-shadow: 0 0 0 2px rgba(255,122,0,0.35), 0 0 18px rgba(255,122,0,0.35); }
+    .glow-u5:hover { box-shadow: 0 0 0 2px rgba(255,59,31,0.35), 0 0 18px rgba(255,59,31,0.35); }
+    .glow-u6:hover { box-shadow: 0 0 0 2px rgba(0,255,102,0.35), 0 0 18px rgba(0,255,102,0.35); }
+    .p1-link:hover { color: #FFD166 !important; }
+  </style>
 
+  <!-- HERO / BANNER -->
+  <div
+    style="
+      background: radial-gradient(circle at top, rgba(255,255,255,0.18) 0, rgba(20,26,51,0.62) 55%, rgba(11,16,32,0.75) 100%);
+      color: #FFFFFF;
+      border-radius: 16px;
+      padding: 18px 20px;
+      border: 1px solid rgba(255,255,255,0.15);
+      margin: 0 0 16px 0;
+      text-align: center;
+    "
+  >
+    <div style="font-size: 0.95rem; color: #E6ECFF; margin-bottom: 6px;">Physics 1</div>
+
+    <h1 style="margin: 0; font-size: 1.9rem; color: #FFFFFF;">Course Home</h1>
+
+    <p style="margin: 6px 0 0 0; font-size: 0.98rem; color: #E6ECFF;">
+      Unit 1 &bull; Unit 2 &bull; Unit 3 &bull; Unit 4 &bull; Unit 5 &bull; Unit 6
+    </p>
+
+    <!-- Header divider: #00FF66 → #FFC533 → #C44DFF -->
+    <div
+      style="
+        height: 3px;
+        background: linear-gradient(90deg, #00FF66, #FFC533, #C44DFF);
+        margin: 12px auto 0 auto;
+        width: 78%;
+        border-radius: 999px;
+      "
+    ></div>
+
+    <!-- 4 Buttons -->
+    <div style="display: inline-flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; justify-content: center;">
+      <a
+        class="p1-home-btn glow-u2"
+        style="
+          text-decoration: none;
+          background: #1E2747;
+          border: 1px solid rgba(255,255,255,0.15);
+          color: #FFFFFF;
+          padding: 8px 14px;
+          border-radius: 999px;
+          font-size: 0.95rem;
+          display: inline-block;
+        "
+        title="Announcements"
+        href="/courses/2378986/announcements"
+        data-course-type="navigation"
+      >
+        📣 Announcements
+      </a>
+
+      <a
+        class="p1-home-btn glow-u6"
+        style="
+          text-decoration: none;
+          background: #1E2747;
+          border: 1px solid rgba(255,255,255,0.15);
+          color: #FFFFFF;
+          padding: 8px 14px;
+          border-radius: 999px;
+          font-size: 0.95rem;
+          display: inline-block;
+        "
+        title="Modules"
+        href="/courses/2378986/modules"
+        data-course-type="navigation"
+      >
+        📂 Modules
+      </a>
+
+      <a
+        class="p1-home-btn glow-u4"
+        style="
+          text-decoration: none;
+          background: #1E2747;
+          border: 1px solid rgba(255,255,255,0.15);
+          color: #FFFFFF;
+          padding: 8px 14px;
+          border-radius: 999px;
+          font-size: 0.95rem;
+          display: inline-block;
+        "
+        title="Grades"
+        href="/courses/2378986/grades"
+        data-course-type="navigation"
+      >
+        ✅ Grades
+      </a>
+
+      <a
+        class="p1-home-btn glow-u1"
+        style="
+          text-decoration: none;
+          background: #1E2747;
+          border: 1px solid rgba(255,255,255,0.15);
+          color: #FFFFFF;
+          padding: 8px 14px;
+          border-radius: 999px;
+          font-size: 0.95rem;
+          display: inline-block;
+        "
+        title="Zoom Link"
+        href="https://zoom.us/j/95520217149?pwd=plwi3XFC5EbdBvRtENQJm0COGjfnVr.1"
+        target="_blank"
+        rel="noopener"
+      >
+        🎥 Zoom Link
+      </a>
+    </div>
+  </div>
+
+  <!-- 3-CARD ROW -->
+  <div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: stretch; margin: 0 0 16px 0;">
+    <!-- LEFT: TRIMESTER 1 -->
+    <section style="flex: 1 1 260px; min-width: 260px;">
+      <div
+        style="
+          background: rgba(20,26,51,0.40);
+          border-radius: 16px;
+          padding: 14px 16px;
+          border: 1px solid rgba(255,255,255,0.15);
+          height: 100%;
+        "
+      >
+        <h2 style="margin: 0 0 10px 0; text-align: center; font-size: 1.2rem; color: #FFFFFF;">
+          Trimester 1
+        </h2>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <a
+            class="p1-link"
+            style="
+              text-decoration: none;
+              background: rgba(31,42,85,0.35);
+              border: 1px solid rgba(255,255,255,0.15);
+              border-left: 6px solid #FF2FAF;
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #FFFFFF;
+            "
+            title="Unit 1 – Kinematics"
+            href="https://k12.instructure.com/courses/2378986/pages/unit-1-kinematics"
+          >
+            <strong>Unit 1 — Kinematics</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+
+          <a
+            class="p1-link"
+            style="
+              text-decoration: none;
+              background: rgba(31,42,85,0.35);
+              border: 1px solid rgba(255,255,255,0.15);
+              border-left: 6px solid #FFC533;
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #FFFFFF;
+            "
+            title="Unit 2 – Dynamics"
+            href="https://k12.instructure.com/courses/2378986/pages/unit-2-dynamics"
+          >
+            <strong>Unit 2 — Dynamics</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+
+          <a
+            class="p1-link"
+            style="
+              text-decoration: none;
+              background: rgba(31,42,85,0.35);
+              border: 1px solid rgba(255,255,255,0.15);
+              border-left: 6px solid #C44DFF;
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #FFFFFF;
+            "
+            title="Unit 3 – Acoustics"
+            href="https://k12.instructure.com/courses/2378986/pages/unit-3-acoustics"
+          >
+            <strong>Unit 3 — Acoustics</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MIDDLE: TRIMESTER 2 -->
+    <section style="flex: 1 1 260px; min-width: 260px;">
+      <div
+        style="
+          background: rgba(20,26,51,0.40);
+          border-radius: 16px;
+          padding: 14px 16px;
+          border: 1px solid rgba(255,255,255,0.15);
+          height: 100%;
+        "
+      >
+        <h2 style="margin: 0 0 10px 0; text-align: center; font-size: 1.2rem; color: #FFFFFF;">
+          Trimester 2
+        </h2>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <a
+            class="p1-link"
+            style="
+              text-decoration: none;
+              background: rgba(31,42,85,0.35);
+              border: 1px solid rgba(255,255,255,0.15);
+              border-left: 6px solid #FF7A00;
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #FFFFFF;
+            "
+            title="Unit 4 – Energy"
+            href="https://k12.instructure.com/courses/2378986/pages/unit-4-energy"
+          >
+            <strong>Unit 4 — Energy</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+
+          <a
+            class="p1-link"
+            style="
+              text-decoration: none;
+              background: rgba(31,42,85,0.35);
+              border: 1px solid rgba(255,255,255,0.15);
+              border-left: 6px solid #FF3B1F;
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #FFFFFF;
+            "
+            title="Unit 5 – Momentum"
+            href="https://k12.instructure.com/courses/2378986/pages/unit-5-momentum"
+          >
+            <strong>Unit 5 — Momentum</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+
+          <a
+            class="p1-link"
+            style="
+              text-decoration: none;
+              background: rgba(31,42,85,0.35);
+              border: 1px solid rgba(255,255,255,0.15);
+              border-left: 6px solid #00FF66;
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #FFFFFF;
+            "
+            title="Unit 6 – Optics"
+            href="https://k12.instructure.com/courses/2378986/pages/unit-6-optics"
+          >
+            <strong>Unit 6 — Optics</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RIGHT: COURSE RESOURCES -->
+    <section style="flex: 1 1 260px; min-width: 260px;">
+      <div
+        style="
+          background: rgba(20,26,51,0.40);
+          border-radius: 16px;
+          padding: 14px 16px;
+          border: 1px solid rgba(255,255,255,0.15);
+          height: 100%;
+        "
+      >
+        <h2 style="margin: 0 0 10px 0; text-align: center; font-size: 1.2rem; color: #FFFFFF;">
+          Course Resources
+        </h2>
+
+        <div style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 12px;">
+          <a
+            class="p1-link"
+            style="
+              text-decoration: none;
+              background: rgba(31,42,85,0.35);
+              border: 1px solid rgba(255,255,255,0.15);
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #FFFFFF;
+            "
+            title="Course Syllabus"
+            href="https://k12.instructure.com/courses/2378986/pages/course-syllabus"
+          >
+            <strong>Course Syllabus</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+
+          <a
+            class="p1-link"
+            style="
+              text-decoration: none;
+              background: rgba(31,42,85,0.35);
+              border: 1px solid rgba(255,255,255,0.15);
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #FFFFFF;
+            "
+            title="Pacing Guide"
+            href="https://k12.instructure.com/courses/2378986/pages/pacing-guide"
+          >
+            <strong>Pacing Guide</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+
+          <a
+            class="p1-link"
+            style="
+              text-decoration: none;
+              background: rgba(31,42,85,0.35);
+              border: 1px solid rgba(255,255,255,0.15);
+              border-radius: 12px;
+              padding: 10px 12px;
+              display: block;
+              color: #FFFFFF;
+            "
+            title="Formula Sheet"
+            href="https://k12.instructure.com/courses/2378986/pages/formula-sheet"
+          >
+            <strong>Formula Sheet</strong>
+            <span style="float: right; font-size: 1.25rem;" aria-hidden="true">➜</span>
+          </a>
+        </div>
+
+        <!-- AI Usage: text block (no link) -->
+        <div
+          style="
+            background: rgba(31,42,85,0.55);
+            border: 1px solid #FFD166;
+            border-radius: 14px;
+            padding: 12px 12px;
+            color: #FFFFFF;
+          "
+        >
+          <h3 style="margin: 0 0 6px 0; font-size: 1.05rem; color: #FFFFFF;">AI Usage</h3>
+
+          <p style="margin: 6px 0 8px 0; color: #DDE6FF;">
+            AI tools helped build this LMS. I use AI to:
+          </p>
+
+          <ul style="margin: 0 0 10px 18px; color: #DDE6FF;">
+            <li>Create the cinematic art and icons.</li>
+            <li>Generate podcast scripts for lessons.</li>
+            <li>Prototype interactive simulations and virtual apps.</li>
+            <li>Keep notes and layouts consistent from unit to unit.</li>
+          </ul>
+
+          <p style="margin: 0 0 6px 0; color: #FFFFFF; font-weight: 700;">My advice about AI</p>
+
+          <p style="margin: 0 0 8px 0; color: #DDE6FF;">
+            Using AI well is more than copy/paste. Train it with specifics and make sure you understand the results.
+          </p>
+
+          <ul style="margin: 0 0 0 18px; color: #DDE6FF;">
+            <li>Use it for brainstorming and getting unstuck.</li>
+            <li>You are responsible for understanding your final work.</li>
+            <li>Submitting work you don’t understand is plagiarism and has consequences.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- BOTTOM BANNER: WELCOME (NO LINKS) -->
+  <section
+    style="
+      background: radial-gradient(circle at top, rgba(255,255,255,0.18) 0, rgba(20,26,51,0.62) 55%, rgba(11,16,32,0.75) 100%);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 16px;
+      padding: 16px;
+      margin: 0 0 8px 0;
+      color: #FFFFFF;
+    "
+  >
+    <h2 style="margin: 0 0 8px 0; font-size: 1.2rem;">Welcome to Physics 1</h2>
+
+    <p style="margin: 0 0 10px 0; color: #E6ECFF;"><strong>From Mr. Iserloth</strong></p>
+
+    <p style="margin: 0 0 10px 0; color: #DDE6FF;">
+      Hello and welcome! I'm Mr. Iserloth, and I’m excited to have you in Physics 1 this year.
+    </p>
+
+    <p style="margin: 0 0 10px 0; color: #DDE6FF;">
+      This course—delivered entirely through Canvas—has been carefully designed to give you everything you need to succeed
+      to learn about the world of physics. You'll find a clear structure, guided lessons, practice problems, videos, and
+      assessments all laid out to keep you on track.
+    </p>
+
+    <p style="margin: 0 0 10px 0; color: #DDE6FF;">
+      Whether you're aiming for a career in STEM or just exploring what physics is all about, you're in the right place.
+      This class will challenge you to think logically, solve problems creatively, and build real life skills that you'll
+      use far beyond high school.
+    </p>
+
+    <p style="margin: 0 0 10px 0; color: #DDE6FF;">
+      Stay organized, ask questions, and don’t hesitate to reach out when you need support—I’m here to help.
+    </p>
+
+    <p style="margin: 0; color: #DDE6FF;">
+      Let’s have a great year!
+    </p>
+
+    <p style="margin: 10px 0 0 0; color: #E6ECFF;">
+      —Mr. I
+    </p>
+  </section>
+</section>
